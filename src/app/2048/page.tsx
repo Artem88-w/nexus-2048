@@ -227,12 +227,12 @@ export default function Page() {
 
       {gameOver && (
         <div className="mt-4 text-red-500 text-xl font-bold">
-          U didn't make Super Computer
+        U didn&apos;t create Super Computer
         </div>
       )}
       {win && (
         <div className="mt-4 text-green-400 text-xl font-bold">
-          U made Super Computer!
+          U created Super Computer!
         </div>
       )}
 
